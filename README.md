@@ -1,6 +1,6 @@
-# SDPS Backend — Smart Drainage Patrol System
+# SDPS Backend — Smart Drainage Protection System
 
-A Django REST Framework backend for the Smart Drainage Patrol System (SDPS), providing APIs for drainage monitoring, sensor data, flood alerts, and maintenance reports.
+A Django REST Framework backend for the Smart Drainage Protection System (SDPS), providing APIs for drainage monitoring, sensor data, flood alerts, and maintenance reports.
 
 ---
 
