@@ -4,17 +4,8 @@ A Django REST Framework backend for the Smart Drainage Protection System (SDPS),
 
 ---
 
-## Requirements
-
-Make sure you have the following installed before starting:
-
-- Python 3.11 or 3.12
-- pip
-- git
-
 ### Python packages to install
 
-Run this in your terminal inside the project folder:
 
 ```bash
 pip install django
@@ -24,7 +15,7 @@ pip install httpie
 
 ---
 
-## Getting Started
+## To Start 
 
 ### 1. Clone the repository
 
