@@ -8,7 +8,7 @@ A Django REST Framework backend for the Smart Drainage Protection System (SDPS),
 
 Make sure you have the following installed before starting:
 
-- Python 3.11 or 3.12 (⚠️ avoid Python 3.14 — compatibility issues with Django)
+- Python 3.11 or 3.12
 - pip
 - git
 
@@ -20,12 +20,6 @@ Run this in your terminal inside the project folder:
 pip install django
 pip install djangorestframework
 pip install httpie
-```
-
-Or if a `requirements.txt` is present:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
@@ -175,9 +169,3 @@ sdps-backend/
 | `MaintenanceReport` | Maintenance requests and resolution logs |
 
 ---
-
-## Notes
-
-- All API endpoints require a token in the `Authorization` header except `/api/auth/register/` and `/api/auth/login/`
-- Token format: `Authorization: Token <your-token>`
-- This backend is built to support the SDPS web and mobile UI in future integration activities
