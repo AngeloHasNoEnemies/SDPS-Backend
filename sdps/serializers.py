@@ -55,7 +55,7 @@ class DrainageLocationSummarySerializer(serializers.ModelSerializer):
     class Meta:
         model = DrainageLocation
         fields = [
-            'id', 'name', 'address', 'status',
+            'id', 'name', 'address', 'latitude', 'longitude', 'status',
             'latest_water_level', 'active_alerts_count', 'updated_at'
         ]
 
